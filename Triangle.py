@@ -10,7 +10,7 @@ triad.goto(0, 0)
 triad.down()
 colors = ["red", "gold", "blue", "green", "white", "cyan", "pink"]
 
-for i in range(100):
+for i in range(150):
     triad.color(random.choice(colors))
     triad.forward(i * 3)
     triad.left(120)
